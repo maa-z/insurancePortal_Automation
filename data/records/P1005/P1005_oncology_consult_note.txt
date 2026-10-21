@@ -1,0 +1,61 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Arthur Pendelton
+  Medical Record No:   P1005
+  Date of Birth:       1954-07-19
+  Biological Sex:      Male
+  Primary Address:     310 Elm Court, Austin, TX 78701
+  Insurance Payer:     Unknown (Member ID: MEM-449012)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Colorectal Cancer
+  Primary Diagnosis:   Malignant neoplasm of cecum
+  ICD-10 Code:         C18.0
+  Diagnosis Date:      2026-06-22
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    Liver
+  Confirmation Date:   2026-06-28
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 172 cm (Drawn: 2026-08-01)
+  - WEIGHT: 78.0 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 1.10 mg/dL (Drawn: 2026-08-01)
+  - HEMOGLOBIN: 10.8 g/dL (Drawn: 2026-08-01)
+  - ANC: 3.3 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 225 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 23 U/L, AST 19 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Panitumumab
+  Regimen Name:        N/A
+  Line of Therapy:     First-line
+  Treatment Intent:    Palliative / Disease Control
+  Requested Start Date:2026-08-25
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+================================================================================
+CLINICAL QUALITY & DISCREPANCY FLAGS:
+  [FLAG] MISSING_EVIDENCE: Patient is missing required KRAS and NRAS testing results which are mandatory for Anti-EGFR (Panitumumab) therapy.
+================================================================================
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-25

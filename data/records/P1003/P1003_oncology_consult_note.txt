@@ -1,0 +1,56 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Sophia Rodriguez
+  Medical Record No:   P1003
+  Date of Birth:       1974-03-22
+  Biological Sex:      Female
+  Primary Address:     892 Sunset Blvd, Los Angeles, CA 90028
+  Insurance Payer:     Unknown (Member ID: MEM-332145)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Colorectal Cancer
+  Primary Diagnosis:   Malignant neoplasm of sigmoid colon
+  ICD-10 Code:         C18.7
+  Diagnosis Date:      2026-05-18
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    Liver, Peritoneum
+  Confirmation Date:   2026-05-28
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 162 cm (Drawn: 2026-08-01)
+  - WEIGHT: 58.0 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 0.78 mg/dL (Drawn: 2026-08-01)
+  - HEMOGLOBIN: 11.6 g/dL (Drawn: 2026-08-01)
+  - ANC: 3.5 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 265 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 25 U/L, AST 21 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Cetuximab + FOLFIRI
+  Regimen Name:        N/A
+  Line of Therapy:     First-line
+  Treatment Intent:    Palliative / Disease Control
+  Requested Start Date:2026-08-22
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-22

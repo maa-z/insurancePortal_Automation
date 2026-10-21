@@ -1,0 +1,57 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        David Kim
+  Medical Record No:   P1004
+  Date of Birth:       1963-09-08
+  Biological Sex:      Male
+  Primary Address:     512 Pinecrest Road, Denver, CO 80202
+  Insurance Payer:     Unknown (Member ID: MEM-992101)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Breast Cancer
+  Primary Diagnosis:   Malignant neoplasm of central portion of male breast
+  ICD-10 Code:         C50.121
+  Diagnosis Date:      2024-03-10
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    Lung, Pleura
+  Confirmation Date:   2026-06-20
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 178 cm (Drawn: 2026-08-01)
+  - WEIGHT: 80.5 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 1.05 mg/dL (Drawn: 2026-08-01)
+  - HEMOGLOBIN: 13.1 g/dL (Drawn: 2026-08-01)
+  - ANC: 3.1 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 195 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 20 U/L, AST 22 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+    Toxicity/Adverse Events: Grade 3 peripheral sensory neuropathy in hands and feet during cycle 4 of paclitaxel requiring treatment cessation.
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Trastuzumab Emtansine (T-DM1)
+  Regimen Name:        N/A
+  Line of Therapy:     Second-line
+  Treatment Intent:    Palliative / Disease Control
+  Requested Start Date:2026-08-28
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-28

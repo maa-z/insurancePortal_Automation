@@ -1,0 +1,62 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Gregory House
+  Medical Record No:   P1007
+  Date of Birth:       1959-05-15
+  Biological Sex:      Male
+  Primary Address:     221B Baker Street, Princeton, NJ 08540
+  Insurance Payer:     Unknown (Member ID: MEM-778811)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Lung Cancer
+  Primary Diagnosis:   Squamous cell carcinoma of right lower bronchus
+  ICD-10 Code:         C34.31
+  Diagnosis Date:      2026-05-10
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    
+  Confirmation Date:   N/A
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 180 cm (Drawn: 2026-08-01)
+  - WEIGHT: 79.0 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 1.35 mg/dL (Drawn: 2026-03-10)
+    Clinical Context: Creatinine 1.35 mg/dL drawn 144 days ago (policy requires lab within 30 days of cisplatin administration).
+  - HEMOGLOBIN: 11.2 g/dL (Drawn: 2026-08-01)
+  - ANC: 3.9 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 205 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 26 U/L, AST 29 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Cisplatin + Gemcitabine
+  Regimen Name:        N/A
+  Line of Therapy:     First-line
+  Treatment Intent:    Definitive / Concurrent Chemoradiation
+  Requested Start Date:2026-08-25
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+================================================================================
+CLINICAL QUALITY & DISCREPANCY FLAGS:
+  [FLAG] OUTDATED_LAB: Creatinine measurement is from 2026-03-10 (> 30 days old), which is not clinically valid for nephrotoxic Cisplatin clearance authorization.
+================================================================================
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-25

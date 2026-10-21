@@ -1,0 +1,56 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Marcus Chen
+  Medical Record No:   P1002
+  Date of Birth:       1959-11-20
+  Biological Sex:      Male
+  Primary Address:     104 Pearl Way, Seattle, WA 98101
+  Insurance Payer:     Unknown (Member ID: MEM-554109)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Lung Cancer
+  Primary Diagnosis:   Non-small cell lung carcinoma of left upper lobe
+  ICD-10 Code:         C34.12
+  Diagnosis Date:      2026-07-05
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    Brain, Adrenal
+  Confirmation Date:   2026-07-12
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 175 cm (Drawn: 2026-08-01)
+  - WEIGHT: 72.0 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 0.92 mg/dL (Drawn: 2026-08-01)
+  - HEMOGLOBIN: 13.8 g/dL (Drawn: 2026-08-01)
+  - ANC: 4.2 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 210 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 28 U/L, AST 24 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Osimertinib
+  Regimen Name:        N/A
+  Line of Therapy:     First-line
+  Treatment Intent:    Palliative / Disease Control
+  Requested Start Date:2026-08-20
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-20

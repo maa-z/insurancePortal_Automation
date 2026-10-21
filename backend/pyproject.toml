@@ -1,0 +1,21 @@
+[project]
+name = "insurance-portal-ai-agent-backend"
+version = "0.1.0"
+description = "Insurance Portal AI Agent Backend & Automation Engine"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.112.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "sqlalchemy>=2.0.30",
+    "playwright>=1.46.0",
+    "python-dotenv>=1.0.1",
+    "httpx>=0.27.0",
+    "openai>=1.40.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.23.0"
+]

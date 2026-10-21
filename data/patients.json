@@ -1,0 +1,1215 @@
+{
+  "patients": [
+    {
+      "patient_id": "P1001",
+      "demographics": {
+        "full_name": {
+          "value": "Eleanor Vance",
+          "source": "registration_system",
+          "record_id": "REG-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "date_of_birth": {
+          "value": "1968-05-14",
+          "source": "registration_system",
+          "record_id": "REG-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "sex": {
+          "value": "Female",
+          "source": "registration_system",
+          "record_id": "REG-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "address": {
+          "value": "742 Evergreen Terrace, Springfield, OR 97477",
+          "source": "registration_system",
+          "record_id": "REG-1001",
+          "recorded_at": "2026-08-01"
+        }
+      },
+      "insurance": {
+        "member_id": {
+          "value": "MEM-889102",
+          "source": "eligibility_clearinghouse",
+          "record_id": "INS-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "insurance_plan": {
+          "value": "BlueCross BlueShield Comprehensive PPO",
+          "source": "eligibility_clearinghouse",
+          "record_id": "INS-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "provider_name": {
+          "value": "Dr. Sarah Lin, MD",
+          "source": "onco_emr",
+          "record_id": "PRV-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "provider_npi": {
+          "value": "1982736450",
+          "source": "onco_emr",
+          "record_id": "PRV-1001",
+          "recorded_at": "2026-08-01"
+        },
+        "authorization_type": {
+          "value": "Prior Authorization (Initial)",
+          "source": "order_entry",
+          "record_id": "AUTH-1001",
+          "recorded_at": "2026-08-02"
+        }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1001-01",
+          "patient_id": "P1001",
+          "cancer_type": "Breast Cancer",
+          "primary_diagnosis": "Malignant neoplasm of upper-outer quadrant of right female breast",
+          "icd10_code": "C50.411",
+          "diagnosis_date": "2026-06-10",
+          "disease_stage": "Stage IV",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Bone", "Liver"],
+          "metastasis_confirmation_date": "2026-06-25",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Right breast biopsy confirms invasive ductal carcinoma; PET/CT demonstrates osseous and hepatic metastases.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment and Plan",
+          "event_date": "2026-06-25",
+          "recorded_at": "2026-06-26",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        {
+          "record_id": "PATH-1001-01",
+          "patient_id": "P1001",
+          "concept": "HISTOLOGY",
+          "value": "Invasive Ductal Carcinoma, Grade 3",
+          "supporting_text": "Needle core biopsy right breast: Invasive ductal carcinoma (Nottingham Grade 3).",
+          "source_type": "final_pathology",
+          "document_or_table": "PathologyReports",
+          "section": "Microscopic Description",
+          "event_date": "2026-06-12",
+          "recorded_at": "2026-06-13",
+          "extraction_quality": "verified"
+        }
+      ],
+      "biomarkers": [
+        {
+          "record_id": "BIO-1001-01",
+          "patient_id": "P1001",
+          "biomarker_name": "ER_STATUS",
+          "value": "Positive",
+          "unit": "%",
+          "supporting_text": "Estrogen Receptor (ER): Positive (95% strong nuclear staining).",
+          "source_type": "final_pathology",
+          "document_or_table": "BiomarkerPanel",
+          "section": "Immunohistochemistry",
+          "event_date": "2026-06-15",
+          "recorded_at": "2026-06-16",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1001-02",
+          "patient_id": "P1001",
+          "biomarker_name": "PR_STATUS",
+          "value": "Positive",
+          "unit": "%",
+          "supporting_text": "Progesterone Receptor (PR): Positive (80% moderate nuclear staining).",
+          "source_type": "final_pathology",
+          "document_or_table": "BiomarkerPanel",
+          "section": "Immunohistochemistry",
+          "event_date": "2026-06-15",
+          "recorded_at": "2026-06-16",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1001-03",
+          "patient_id": "P1001",
+          "biomarker_name": "HER2_STATUS",
+          "value": "Positive",
+          "testing_method": "IHC (3+)",
+          "supporting_text": "HER2: Positive (IHC 3+ circumferential membrane staining in >10% tumor cells).",
+          "source_type": "final_pathology",
+          "document_or_table": "BiomarkerPanel",
+          "section": "Immunohistochemistry",
+          "event_date": "2026-06-15",
+          "recorded_at": "2026-06-16",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1001-04",
+          "patient_id": "P1001",
+          "biomarker_name": "BRCA_STATUS",
+          "value": "Negative",
+          "supporting_text": "BRCA1 and BRCA2 germline testing: No pathogenic variant detected.",
+          "source_type": "molecular_genetics",
+          "document_or_table": "GeneticsReport",
+          "section": "Summary",
+          "event_date": "2026-07-02",
+          "recorded_at": "2026-07-03",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1001-05",
+          "patient_id": "P1001",
+          "biomarker_name": "MENOPAUSAL_STATUS",
+          "value": "Postmenopausal",
+          "supporting_text": "Patient is postmenopausal (surgical menopause 2018).",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "History of Present Illness",
+          "event_date": "2026-06-10",
+          "recorded_at": "2026-06-10",
+          "extraction_quality": "verified"
+        }
+      ],
+      "laboratory_results": [
+        {
+          "record_id": "LAB-1001-01",
+          "patient_id": "P1001",
+          "test_name": "HEIGHT",
+          "value": "168",
+          "unit": "cm",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "vitals",
+          "document_or_table": "VitalsLog",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-02",
+          "patient_id": "P1001",
+          "test_name": "WEIGHT",
+          "value": "64.5",
+          "unit": "kg",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "vitals",
+          "document_or_table": "VitalsLog",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-03",
+          "patient_id": "P1001",
+          "test_name": "ECOG_PS",
+          "value": "1",
+          "unit": "score",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "clinical_exam",
+          "document_or_table": "ClinicalNotes",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-04",
+          "patient_id": "P1001",
+          "test_name": "CREATININE",
+          "value": "0.85",
+          "unit": "mg/dL",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "laboratory_chemistry",
+          "document_or_table": "ComprehensiveMetabolicPanel",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-05",
+          "patient_id": "P1001",
+          "test_name": "HEMOGLOBIN",
+          "value": "12.4",
+          "unit": "g/dL",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "laboratory_hematology",
+          "document_or_table": "CBCWithDifferential",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-06",
+          "patient_id": "P1001",
+          "test_name": "ANC",
+          "value": "3.8",
+          "unit": "x10^3/uL",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "laboratory_hematology",
+          "document_or_table": "CBCWithDifferential",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-07",
+          "patient_id": "P1001",
+          "test_name": "PLATELET_COUNT",
+          "value": "240",
+          "unit": "x10^3/uL",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "laboratory_hematology",
+          "document_or_table": "CBCWithDifferential",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "LAB-1001-08",
+          "patient_id": "P1001",
+          "test_name": "ALT_AST_LFT",
+          "value": "Normal (ALT 22 U/L, AST 26 U/L, Total Bili 0.6 mg/dL)",
+          "unit": "U/L",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "source_type": "laboratory_chemistry",
+          "document_or_table": "HepaticFunctionPanel",
+          "extraction_quality": "verified"
+        }
+      ],
+      "treatment_history": [
+        {
+          "record_id": "TX-1001-00",
+          "patient_id": "P1001",
+          "prior_systemic_therapy": "No",
+          "prior_radiation": "No",
+          "prior_surgery": "No",
+          "supporting_text": "Treatment-naive for metastatic breast cancer.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "OncologyHistory",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "extraction_quality": "verified"
+        }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Trastuzumab + Pertuzumab + Docetaxel",
+        "requested_regimen": "THP (Docetaxel + Trastuzumab + Pertuzumab)",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-25",
+        "dose": "Trastuzumab 8mg/kg loading then 6mg/kg; Pertuzumab 840mg loading then 420mg; Docetaxel 75mg/m2",
+        "dose_unit": "mg/kg and mg/m2",
+        "frequency": "Every 3 weeks",
+        "number_of_cycles": "6 cycles then HP maintenance",
+        "combination_medications": "Docetaxel",
+        "supporting_diagnosis": "HER2+ Metastatic Breast Cancer",
+        "dose_calc_method": "Body Surface Area & Weight-based",
+        "record_id": "PLAN-1001-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    },
+    {
+      "patient_id": "P1002",
+      "demographics": {
+        "full_name": { "value": "Marcus Chen", "source": "registration_system", "record_id": "REG-1002", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1959-11-20", "source": "registration_system", "record_id": "REG-1002", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Male", "source": "registration_system", "record_id": "REG-1002", "recorded_at": "2026-08-01" },
+        "address": { "value": "104 Pearl Way, Seattle, WA 98101", "source": "registration_system", "record_id": "REG-1002", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-554109", "source": "eligibility_clearinghouse", "record_id": "INS-1002", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Aetna Choice POS II", "source": "eligibility_clearinghouse", "record_id": "INS-1002", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Angela Foster, MD", "source": "onco_emr", "record_id": "PRV-1002", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1234567890", "source": "onco_emr", "record_id": "PRV-1002", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1002", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1002-01",
+          "patient_id": "P1002",
+          "cancer_type": "Lung Cancer",
+          "primary_diagnosis": "Non-small cell lung carcinoma of left upper lobe",
+          "icd10_code": "C34.12",
+          "diagnosis_date": "2026-07-05",
+          "disease_stage": "Stage IVB",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Brain", "Adrenal"],
+          "metastasis_confirmation_date": "2026-07-12",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Bronchoscopic biopsy confirms adenocarcinoma. Brain MRI confirms bilateral frontal lobe metastases.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-07-12",
+          "recorded_at": "2026-07-13",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        {
+          "record_id": "PATH-1002-01",
+          "patient_id": "P1002",
+          "concept": "HISTOLOGY",
+          "value": "Adenocarcinoma",
+          "supporting_text": "Left upper lobe biopsy: Adenocarcinoma with acinar and lepidic patterns.",
+          "source_type": "final_pathology",
+          "document_or_table": "PathologyReports",
+          "section": "Diagnosis",
+          "event_date": "2026-07-08",
+          "recorded_at": "2026-07-09",
+          "extraction_quality": "verified"
+        }
+      ],
+      "biomarkers": [
+        {
+          "record_id": "BIO-1002-01",
+          "patient_id": "P1002",
+          "biomarker_name": "EGFR_STATUS",
+          "value": "Positive (Exon 19 deletion)",
+          "supporting_text": "EGFR mutation detected: Exon 19 in-frame deletion (p.E746_A750del).",
+          "source_type": "molecular_genetics",
+          "document_or_table": "NGS_LungPanel",
+          "section": "Somatic Alterations",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-02",
+          "patient_id": "P1002",
+          "biomarker_name": "ALK_STATUS",
+          "value": "Negative",
+          "supporting_text": "ALK rearrangement (D5F3 IHC / FISH): Negative.",
+          "source_type": "molecular_genetics",
+          "document_or_table": "NGS_LungPanel",
+          "section": "Fusion Analysis",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-03",
+          "patient_id": "P1002",
+          "biomarker_name": "ROS1_STATUS",
+          "value": "Negative",
+          "supporting_text": "ROS1 rearrangement: Negative.",
+          "source_type": "molecular_genetics",
+          "document_or_table": "NGS_LungPanel",
+          "section": "Fusion Analysis",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-04",
+          "patient_id": "P1002",
+          "biomarker_name": "BRAF_STATUS",
+          "value": "Negative",
+          "supporting_text": "BRAF V600E: Negative.",
+          "source_type": "molecular_genetics",
+          "document_or_table": "NGS_LungPanel",
+          "section": "Point Mutations",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-05",
+          "patient_id": "P1002",
+          "biomarker_name": "KRAS_STATUS",
+          "value": "Negative",
+          "supporting_text": "KRAS codons 12, 13, 61: Wild Type / Negative.",
+          "source_type": "molecular_genetics",
+          "document_or_table": "NGS_LungPanel",
+          "section": "Point Mutations",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-06",
+          "patient_id": "P1002",
+          "biomarker_name": "PDL1_STATUS",
+          "value": "Positive",
+          "supporting_text": "PD-L1 IHC (22C3 antibody): Tumor Proportion Score (TPS) = 75%.",
+          "source_type": "final_pathology",
+          "document_or_table": "BiomarkerPanel",
+          "section": "Immunohistochemistry",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1002-07",
+          "patient_id": "P1002",
+          "biomarker_name": "PDL1_PERCENTAGE",
+          "value": "75",
+          "unit": "%",
+          "supporting_text": "TPS 75% positive staining.",
+          "source_type": "final_pathology",
+          "document_or_table": "BiomarkerPanel",
+          "section": "Immunohistochemistry",
+          "event_date": "2026-07-16",
+          "recorded_at": "2026-07-17",
+          "extraction_quality": "verified"
+        }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1002-01", "patient_id": "P1002", "test_name": "HEIGHT", "value": "175", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-02", "patient_id": "P1002", "test_name": "WEIGHT", "value": "72.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-03", "patient_id": "P1002", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-04", "patient_id": "P1002", "test_name": "CREATININE", "value": "0.92", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-05", "patient_id": "P1002", "test_name": "HEMOGLOBIN", "value": "13.8", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-06", "patient_id": "P1002", "test_name": "ANC", "value": "4.2", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-07", "patient_id": "P1002", "test_name": "PLATELET_COUNT", "value": "210", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1002-08", "patient_id": "P1002", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 28 U/L, AST 24 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        {
+          "record_id": "TX-1002-00",
+          "patient_id": "P1002",
+          "prior_systemic_therapy": "No",
+          "prior_radiation": "No",
+          "prior_surgery": "No",
+          "supporting_text": "Treatment-naive for metastatic NSCLC.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "OncologyHistory",
+          "event_date": "2026-08-01",
+          "recorded_at": "2026-08-01",
+          "extraction_quality": "verified"
+        }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Osimertinib",
+        "requested_regimen": "Osimertinib 80mg Daily",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-20",
+        "dose": "80",
+        "dose_unit": "mg",
+        "frequency": "Daily",
+        "number_of_cycles": "Continuous until progression",
+        "combination_medications": "None",
+        "supporting_diagnosis": "EGFR-mutant Metastatic NSCLC",
+        "dose_calc_method": "Fixed Dose",
+        "record_id": "PLAN-1002-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    },
+    {
+      "patient_id": "P1003",
+      "demographics": {
+        "full_name": { "value": "Sophia Rodriguez", "source": "registration_system", "record_id": "REG-1003", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1974-03-22", "source": "registration_system", "record_id": "REG-1003", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Female", "source": "registration_system", "record_id": "REG-1003", "recorded_at": "2026-08-01" },
+        "address": { "value": "892 Sunset Blvd, Los Angeles, CA 90028", "source": "registration_system", "record_id": "REG-1003", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-332145", "source": "eligibility_clearinghouse", "record_id": "INS-1003", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "UnitedHealthcare Choice Plus", "source": "eligibility_clearinghouse", "record_id": "INS-1003", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Carlos Mendez, MD", "source": "onco_emr", "record_id": "PRV-1003", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1456789023", "source": "onco_emr", "record_id": "PRV-1003", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1003", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1003-01",
+          "patient_id": "P1003",
+          "cancer_type": "Colorectal Cancer",
+          "primary_diagnosis": "Malignant neoplasm of sigmoid colon",
+          "icd10_code": "C18.7",
+          "diagnosis_date": "2026-05-18",
+          "disease_stage": "Stage IV",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Liver", "Peritoneum"],
+          "metastasis_confirmation_date": "2026-05-28",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Colonoscopy identified sigmoid mass; staging CT showed multiple hepatic and peritoneal implants.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-05-28",
+          "recorded_at": "2026-05-29",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        {
+          "record_id": "PATH-1003-01",
+          "patient_id": "P1003",
+          "concept": "HISTOLOGY",
+          "value": "Adenocarcinoma, moderately differentiated",
+          "supporting_text": "Sigmoid biopsy: Moderately differentiated colonic adenocarcinoma.",
+          "source_type": "final_pathology",
+          "document_or_table": "PathologyReports",
+          "section": "Diagnosis",
+          "event_date": "2026-05-20",
+          "recorded_at": "2026-05-21",
+          "extraction_quality": "verified"
+        }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1003-01", "patient_id": "P1003", "biomarker_name": "KRAS_STATUS", "value": "Wild Type / Negative", "supporting_text": "KRAS codons 12, 13, 61, 146: No mutation detected.", "source_type": "molecular_genetics", "document_or_table": "CRC_Panel", "event_date": "2026-06-02", "recorded_at": "2026-06-03", "extraction_quality": "verified" },
+        { "record_id": "BIO-1003-02", "patient_id": "P1003", "biomarker_name": "NRAS_STATUS", "value": "Wild Type / Negative", "supporting_text": "NRAS codons 12, 13, 61: No mutation detected.", "source_type": "molecular_genetics", "document_or_table": "CRC_Panel", "event_date": "2026-06-02", "recorded_at": "2026-06-03", "extraction_quality": "verified" },
+        { "record_id": "BIO-1003-03", "patient_id": "P1003", "biomarker_name": "BRAF_STATUS", "value": "Negative", "supporting_text": "BRAF V600E: Negative.", "source_type": "molecular_genetics", "document_or_table": "CRC_Panel", "event_date": "2026-06-02", "recorded_at": "2026-06-03", "extraction_quality": "verified" },
+        { "record_id": "BIO-1003-04", "patient_id": "P1003", "biomarker_name": "MSI_MMR_STATUS", "value": "MSI-High / dMMR", "supporting_text": "IHC shows loss of MLH1 and PMS2 nuclear expression. MSI-High confirmed by PCR.", "source_type": "final_pathology", "document_or_table": "CRC_Panel", "event_date": "2026-06-02", "recorded_at": "2026-06-03", "extraction_quality": "verified" },
+        { "record_id": "BIO-1003-05", "patient_id": "P1003", "biomarker_name": "TUMOR_LOCATION", "value": "Left-sided (Sigmoid)", "supporting_text": "Primary tumor located in sigmoid colon (left side).", "source_type": "procedure_note", "document_or_table": "ColonoscopyReport", "event_date": "2026-05-18", "recorded_at": "2026-05-18", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1003-01", "patient_id": "P1003", "test_name": "HEIGHT", "value": "162", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-02", "patient_id": "P1003", "test_name": "WEIGHT", "value": "58.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-03", "patient_id": "P1003", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-04", "patient_id": "P1003", "test_name": "CREATININE", "value": "0.78", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-05", "patient_id": "P1003", "test_name": "HEMOGLOBIN", "value": "11.6", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-06", "patient_id": "P1003", "test_name": "ANC", "value": "3.5", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-07", "patient_id": "P1003", "test_name": "PLATELET_COUNT", "value": "265", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1003-08", "patient_id": "P1003", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 25 U/L, AST 21 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        { "record_id": "TX-1003-00", "patient_id": "P1003", "prior_systemic_therapy": "No", "prior_radiation": "No", "prior_surgery": "No", "supporting_text": "Naive to systemic cancer therapy.", "source_type": "onco_emr_clinical_note", "document_or_table": "OncologyHistory", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "extraction_quality": "verified" }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Cetuximab + FOLFIRI",
+        "requested_regimen": "FOLFIRI + Cetuximab",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-22",
+        "dose": "Cetuximab 500 mg/m2 IV every 2 weeks + FOLFIRI standard dosing",
+        "dose_unit": "mg/m2",
+        "frequency": "Every 2 weeks",
+        "number_of_cycles": "8 cycles",
+        "combination_medications": "Irinotecan, 5-FU, Leucovorin",
+        "supporting_diagnosis": "RAS Wild-Type Left-Sided Metastatic CRC",
+        "dose_calc_method": "Body Surface Area",
+        "record_id": "PLAN-1003-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    },
+    {
+      "patient_id": "P1004",
+      "demographics": {
+        "full_name": { "value": "David Kim", "source": "registration_system", "record_id": "REG-1004", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1963-09-08", "source": "registration_system", "record_id": "REG-1004", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Male", "source": "registration_system", "record_id": "REG-1004", "recorded_at": "2026-08-01" },
+        "address": { "value": "512 Pinecrest Road, Denver, CO 80202", "source": "registration_system", "record_id": "REG-1004", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-992101", "source": "eligibility_clearinghouse", "record_id": "INS-1004", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Cigna Health and Life Open Access", "source": "eligibility_clearinghouse", "record_id": "INS-1004", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Sarah Lin, MD", "source": "onco_emr", "record_id": "PRV-1004", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1982736450", "source": "onco_emr", "record_id": "PRV-1004", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Re-authorization/Subsequent)", "source": "order_entry", "record_id": "AUTH-1004", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1004-01",
+          "patient_id": "P1004",
+          "cancer_type": "Breast Cancer",
+          "primary_diagnosis": "Malignant neoplasm of central portion of male breast",
+          "icd10_code": "C50.121",
+          "diagnosis_date": "2024-03-10",
+          "disease_stage": "Stage IV",
+          "is_new_diagnosis": "No",
+          "is_recurrent": "Yes",
+          "recurrence_date": "2026-06-15",
+          "previous_remission_date": "2025-01-20",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Lung", "Pleura"],
+          "metastasis_confirmation_date": "2026-06-20",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Male breast cancer patient with pulmonary recurrence after 17 months in remission.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-06-20",
+          "recorded_at": "2026-06-21",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1004-01", "patient_id": "P1004", "concept": "HISTOLOGY", "value": "Invasive Ductal Carcinoma", "supporting_text": "Recurrent pleural biopsy confirms metastatic adenocarcinoma consistent with primary breast origin.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-06-18", "recorded_at": "2026-06-19", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1004-01", "patient_id": "P1004", "biomarker_name": "ER_STATUS", "value": "Positive", "supporting_text": "ER: Positive (70%).", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-06-18", "recorded_at": "2026-06-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1004-02", "patient_id": "P1004", "biomarker_name": "PR_STATUS", "value": "Negative", "supporting_text": "PR: Negative (0%).", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-06-18", "recorded_at": "2026-06-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1004-03", "patient_id": "P1004", "biomarker_name": "HER2_STATUS", "value": "Positive", "testing_method": "IHC (3+)", "supporting_text": "HER2: Positive (IHC 3+).", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-06-18", "recorded_at": "2026-06-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1004-04", "patient_id": "P1004", "biomarker_name": "BRCA_STATUS", "value": "Positive (BRCA2 Mutation)", "supporting_text": "BRCA2 c.5946delT pathogenic mutation identified.", "source_type": "molecular_genetics", "document_or_table": "GeneticsReport", "event_date": "2024-04-10", "recorded_at": "2024-04-12", "extraction_quality": "verified" },
+        { "record_id": "BIO-1004-05", "patient_id": "P1004", "biomarker_name": "MENOPAUSAL_STATUS", "value": "Not Applicable", "supporting_text": "Patient is male.", "source_type": "onco_emr_clinical_note", "document_or_table": "ClinicalNotes", "event_date": "2026-06-20", "recorded_at": "2026-06-20", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1004-01", "patient_id": "P1004", "test_name": "HEIGHT", "value": "178", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-02", "patient_id": "P1004", "test_name": "WEIGHT", "value": "80.5", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-03", "patient_id": "P1004", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-04", "patient_id": "P1004", "test_name": "CREATININE", "value": "1.05", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-05", "patient_id": "P1004", "test_name": "HEMOGLOBIN", "value": "13.1", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-06", "patient_id": "P1004", "test_name": "ANC", "value": "3.1", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-07", "patient_id": "P1004", "test_name": "PLATELET_COUNT", "value": "195", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1004-08", "patient_id": "P1004", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 20 U/L, AST 22 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        {
+          "record_id": "TX-1004-01",
+          "patient_id": "P1004",
+          "prior_systemic_therapy": "Yes",
+          "previous_medications": "Doxorubicin, Cyclophosphamide, Paclitaxel",
+          "previous_regimens": "AC followed by Paclitaxel (AC-T)",
+          "treatment_start_date": "2024-04-15",
+          "treatment_end_date": "2024-09-30",
+          "reason_treatment_ended": "Toxicity / Adverse Reaction",
+          "toxicity_details": "Grade 3 peripheral sensory neuropathy in hands and feet during cycle 4 of paclitaxel requiring treatment cessation.",
+          "response_to_previous_treatment": "Complete Response initially",
+          "prior_radiation": "Yes",
+          "radiation_site": "Left chest wall",
+          "radiation_date": "2024-11-10",
+          "prior_surgery": "Yes",
+          "surgery_procedure": "Left Modified Radical Mastectomy",
+          "surgery_date": "2024-03-28",
+          "supporting_text": "History of AC-T chemotherapy discontinued early due to severe taxane-induced neuropathy; prior mastectomy and radiation.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "TreatmentHistoryLog",
+          "event_date": "2024-11-15",
+          "recorded_at": "2024-11-20",
+          "extraction_quality": "verified"
+        }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Trastuzumab Emtansine (T-DM1)",
+        "requested_regimen": "T-DM1 Monotherapy",
+        "line_of_therapy": "Second-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-28",
+        "dose": "3.6 mg/kg",
+        "dose_unit": "mg/kg",
+        "frequency": "Every 3 weeks",
+        "number_of_cycles": "Until disease progression or unacceptable toxicity",
+        "combination_medications": "None",
+        "supporting_diagnosis": "Recurrent HER2+ Breast Cancer following Prior Taxane Therapy",
+        "dose_calc_method": "Weight-based",
+        "record_id": "PLAN-1004-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    },
+    {
+      "patient_id": "P1005",
+      "demographics": {
+        "full_name": { "value": "Arthur Pendelton", "source": "registration_system", "record_id": "REG-1005", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1954-07-19", "source": "registration_system", "record_id": "REG-1005", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Male", "source": "registration_system", "record_id": "REG-1005", "recorded_at": "2026-08-01" },
+        "address": { "value": "310 Elm Court, Austin, TX 78701", "source": "registration_system", "record_id": "REG-1005", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-449012", "source": "eligibility_clearinghouse", "record_id": "INS-1005", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Humana Gold Plus HMO", "source": "eligibility_clearinghouse", "record_id": "INS-1005", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Carlos Mendez, MD", "source": "onco_emr", "record_id": "PRV-1005", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1456789023", "source": "onco_emr", "record_id": "PRV-1005", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1005", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1005-01",
+          "patient_id": "P1005",
+          "cancer_type": "Colorectal Cancer",
+          "primary_diagnosis": "Malignant neoplasm of cecum",
+          "icd10_code": "C18.0",
+          "diagnosis_date": "2026-06-22",
+          "disease_stage": "Stage IV",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Liver"],
+          "metastasis_confirmation_date": "2026-06-28",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Newly diagnosed cecal adenocarcinoma with solitary liver metastasis.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-06-28",
+          "recorded_at": "2026-06-29",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1005-01", "patient_id": "P1005", "concept": "HISTOLOGY", "value": "Adenocarcinoma", "supporting_text": "Cecal biopsy: Invasive adenocarcinoma.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-06-25", "recorded_at": "2026-06-26", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1005-01", "patient_id": "P1005", "biomarker_name": "BRAF_STATUS", "value": "Negative", "supporting_text": "BRAF V600E: Negative.", "source_type": "molecular_genetics", "document_or_table": "CRC_Panel", "event_date": "2026-07-01", "recorded_at": "2026-07-02", "extraction_quality": "verified" },
+        { "record_id": "BIO-1005-02", "patient_id": "P1005", "biomarker_name": "TUMOR_LOCATION", "value": "Right-sided (Cecum)", "supporting_text": "Right colonic mass located in cecum.", "source_type": "procedure_note", "document_or_table": "ColonoscopyReport", "event_date": "2026-06-22", "recorded_at": "2026-06-22", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1005-01", "patient_id": "P1005", "test_name": "HEIGHT", "value": "172", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-02", "patient_id": "P1005", "test_name": "WEIGHT", "value": "78.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-03", "patient_id": "P1005", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-04", "patient_id": "P1005", "test_name": "CREATININE", "value": "1.10", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-05", "patient_id": "P1005", "test_name": "HEMOGLOBIN", "value": "10.8", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-06", "patient_id": "P1005", "test_name": "ANC", "value": "3.3", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-07", "patient_id": "P1005", "test_name": "PLATELET_COUNT", "value": "225", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1005-08", "patient_id": "P1005", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 23 U/L, AST 19 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        { "record_id": "TX-1005-00", "patient_id": "P1005", "prior_systemic_therapy": "No", "prior_radiation": "No", "prior_surgery": "No", "supporting_text": "Naive to therapy.", "source_type": "onco_emr_clinical_note", "document_or_table": "OncologyHistory", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "extraction_quality": "verified" }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Panitumumab",
+        "requested_regimen": "Panitumumab Monotherapy",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-25",
+        "dose": "6 mg/kg",
+        "dose_unit": "mg/kg",
+        "frequency": "Every 14 days",
+        "number_of_cycles": "Until disease progression",
+        "combination_medications": "None",
+        "supporting_diagnosis": "Metastatic Colorectal Cancer",
+        "dose_calc_method": "Weight-based",
+        "record_id": "PLAN-1005-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": [
+        {
+          "type": "MISSING_EVIDENCE",
+          "field": "kras_nras_status",
+          "description": "Patient is missing required KRAS and NRAS testing results which are mandatory for Anti-EGFR (Panitumumab) therapy."
+        }
+      ]
+    },
+    {
+      "patient_id": "P1006",
+      "demographics": {
+        "full_name": { "value": "Beatrice Miller", "source": "registration_system", "record_id": "REG-1006", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1965-12-04", "source": "registration_system", "record_id": "REG-1006", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Female", "source": "registration_system", "record_id": "REG-1006", "recorded_at": "2026-08-01" },
+        "address": { "value": "420 Beacon Street, Boston, MA 02116", "source": "registration_system", "record_id": "REG-1006", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-119283", "source": "eligibility_clearinghouse", "record_id": "INS-1006", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "BlueCross BlueShield Massachusetts HMO Blue", "source": "eligibility_clearinghouse", "record_id": "INS-1006", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Sarah Lin, MD", "source": "onco_emr", "record_id": "PRV-1006", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1982736450", "source": "onco_emr", "record_id": "PRV-1006", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1006", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1006-01",
+          "patient_id": "P1006",
+          "cancer_type": "Breast Cancer",
+          "primary_diagnosis": "Malignant neoplasm of breast, unspecified",
+          "icd10_code": "C50.919",
+          "diagnosis_date": "2026-06-18",
+          "disease_stage": "Stage IIIB",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "No",
+          "performance_status": "ECOG 0",
+          "supporting_text": "Locally advanced breast cancer.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-06-18",
+          "recorded_at": "2026-06-19",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1006-01", "patient_id": "P1006", "concept": "HISTOLOGY", "value": "Invasive Lobular Carcinoma", "supporting_text": "Core biopsy: Invasive lobular carcinoma.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-06-20", "recorded_at": "2026-06-21", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1006-01", "patient_id": "P1006", "biomarker_name": "ER_STATUS", "value": "Positive", "supporting_text": "ER: Positive (90%).", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-06-22", "recorded_at": "2026-06-23", "extraction_quality": "verified" },
+        { "record_id": "BIO-1006-02", "patient_id": "P1006", "biomarker_name": "PR_STATUS", "value": "Positive", "supporting_text": "PR: Positive (60%).", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-06-22", "recorded_at": "2026-06-23", "extraction_quality": "verified" },
+        {
+          "record_id": "BIO-1006-03A",
+          "patient_id": "P1006",
+          "biomarker_name": "HER2_STATUS",
+          "value": "Negative",
+          "testing_method": "IHC (1+)",
+          "supporting_text": "Outside pathology lab report: HER2 IHC 1+ Negative (faint incomplete membrane staining in <10% cells).",
+          "source_type": "external_lab_report",
+          "document_or_table": "OutsidePathology",
+          "section": "HER2 IHC",
+          "event_date": "2026-06-22",
+          "recorded_at": "2026-06-24",
+          "extraction_quality": "verified"
+        },
+        {
+          "record_id": "BIO-1006-03B",
+          "patient_id": "P1006",
+          "biomarker_name": "HER2_STATUS",
+          "value": "Positive",
+          "testing_method": "FISH (HER2/CEP17 Ratio 2.4)",
+          "supporting_text": "In-house molecular pathology reflex test: HER2 FISH amplified with HER2/CEP17 ratio 2.4, average 6.2 signals/cell. Interpreted as Positive.",
+          "source_type": "final_pathology",
+          "document_or_table": "MolecularPathologyReport",
+          "section": "FISH Analysis",
+          "event_date": "2026-07-02",
+          "recorded_at": "2026-07-03",
+          "extraction_quality": "verified"
+        },
+        { "record_id": "BIO-1006-04", "patient_id": "P1006", "biomarker_name": "BRCA_STATUS", "value": "Negative", "supporting_text": "BRCA1/2 negative.", "source_type": "molecular_genetics", "document_or_table": "GeneticsReport", "event_date": "2026-07-05", "recorded_at": "2026-07-06", "extraction_quality": "verified" },
+        { "record_id": "BIO-1006-05", "patient_id": "P1006", "biomarker_name": "MENOPAUSAL_STATUS", "value": "Postmenopausal", "supporting_text": "Postmenopausal.", "source_type": "onco_emr_clinical_note", "document_or_table": "ClinicalNotes", "event_date": "2026-06-18", "recorded_at": "2026-06-18", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1006-01", "patient_id": "P1006", "test_name": "HEIGHT", "value": "165", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-02", "patient_id": "P1006", "test_name": "WEIGHT", "value": "66.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-03", "patient_id": "P1006", "test_name": "ECOG_PS", "value": "0", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-04", "patient_id": "P1006", "test_name": "CREATININE", "value": "0.82", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-05", "patient_id": "P1006", "test_name": "HEMOGLOBIN", "value": "12.8", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-06", "patient_id": "P1006", "test_name": "ANC", "value": "4.0", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-07", "patient_id": "P1006", "test_name": "PLATELET_COUNT", "value": "230", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1006-08", "patient_id": "P1006", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 18 U/L, AST 20 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        { "record_id": "TX-1006-00", "patient_id": "P1006", "prior_systemic_therapy": "No", "prior_radiation": "No", "prior_surgery": "No", "supporting_text": "Naive to therapy.", "source_type": "onco_emr_clinical_note", "document_or_table": "OncologyHistory", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "extraction_quality": "verified" }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Trastuzumab + Pertuzumab",
+        "requested_regimen": "Neoadjuvant HP + Docetaxel/Carboplatin (TCHP)",
+        "line_of_therapy": "Neoadjuvant",
+        "treatment_intent": "Curative / Neoadjuvant",
+        "requested_start_date": "2026-08-20",
+        "dose": "Trastuzumab 8mg/kg loading; Pertuzumab 840mg loading",
+        "dose_unit": "mg/kg and mg",
+        "frequency": "Every 3 weeks",
+        "number_of_cycles": "6 cycles neoadjuvant",
+        "combination_medications": "Carboplatin, Docetaxel",
+        "supporting_diagnosis": "Locally Advanced HER2-Positive Breast Cancer",
+        "dose_calc_method": "Body Surface Area & Weight-based",
+        "record_id": "PLAN-1006-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": [
+        {
+          "type": "CONFLICTING_EVIDENCE",
+          "field": "her2_status",
+          "description": "Discordant HER2 results: External lab IHC is 1+ (Negative), whereas In-house reflex FISH is Amplified (Positive)."
+        }
+      ]
+    },
+    {
+      "patient_id": "P1007",
+      "demographics": {
+        "full_name": { "value": "Gregory House", "source": "registration_system", "record_id": "REG-1007", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1959-05-15", "source": "registration_system", "record_id": "REG-1007", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Male", "source": "registration_system", "record_id": "REG-1007", "recorded_at": "2026-08-01" },
+        "address": { "value": "221B Baker Street, Princeton, NJ 08540", "source": "registration_system", "record_id": "REG-1007", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-778811", "source": "eligibility_clearinghouse", "record_id": "INS-1007", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Horizon Blue Cross Blue Shield of NJ", "source": "eligibility_clearinghouse", "record_id": "INS-1007", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Angela Foster, MD", "source": "onco_emr", "record_id": "PRV-1007", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1234567890", "source": "onco_emr", "record_id": "PRV-1007", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1007", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1007-01",
+          "patient_id": "P1007",
+          "cancer_type": "Lung Cancer",
+          "primary_diagnosis": "Squamous cell carcinoma of right lower bronchus",
+          "icd10_code": "C34.31",
+          "diagnosis_date": "2026-05-10",
+          "disease_stage": "Stage IIIB",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "No",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Locally advanced squamous cell lung carcinoma.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-05-10",
+          "recorded_at": "2026-05-11",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1007-01", "patient_id": "P1007", "concept": "HISTOLOGY", "value": "Squamous Cell Carcinoma", "supporting_text": "Bronchial biopsy: Squamous cell carcinoma, keratinizing type.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-05-12", "recorded_at": "2026-05-13", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1007-01", "patient_id": "P1007", "biomarker_name": "EGFR_STATUS", "value": "Negative", "supporting_text": "EGFR wild type.", "source_type": "molecular_genetics", "document_or_table": "NGS_LungPanel", "event_date": "2026-05-18", "recorded_at": "2026-05-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1007-02", "patient_id": "P1007", "biomarker_name": "ALK_STATUS", "value": "Negative", "supporting_text": "ALK negative.", "source_type": "molecular_genetics", "document_or_table": "NGS_LungPanel", "event_date": "2026-05-18", "recorded_at": "2026-05-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1007-03", "patient_id": "P1007", "biomarker_name": "PDL1_STATUS", "value": "Positive", "supporting_text": "PD-L1 TPS = 60%.", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-05-18", "recorded_at": "2026-05-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1007-04", "patient_id": "P1007", "biomarker_name": "PDL1_PERCENTAGE", "value": "60", "unit": "%", "supporting_text": "TPS 60%.", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-05-18", "recorded_at": "2026-05-19", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1007-01", "patient_id": "P1007", "test_name": "HEIGHT", "value": "180", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1007-02", "patient_id": "P1007", "test_name": "WEIGHT", "value": "79.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1007-03", "patient_id": "P1007", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        {
+          "record_id": "LAB-1007-04-OUTDATED",
+          "patient_id": "P1007",
+          "test_name": "CREATININE",
+          "value": "1.35",
+          "unit": "mg/dL",
+          "event_date": "2026-03-10",
+          "recorded_at": "2026-03-10",
+          "source_type": "laboratory_chemistry",
+          "document_or_table": "ComprehensiveMetabolicPanel",
+          "extraction_quality": "verified",
+          "supporting_text": "Creatinine 1.35 mg/dL drawn 144 days ago (policy requires lab within 30 days of cisplatin administration)."
+        },
+        { "record_id": "LAB-1007-05", "patient_id": "P1007", "test_name": "HEMOGLOBIN", "value": "11.2", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1007-06", "patient_id": "P1007", "test_name": "ANC", "value": "3.9", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1007-07", "patient_id": "P1007", "test_name": "PLATELET_COUNT", "value": "205", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1007-08", "patient_id": "P1007", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 26 U/L, AST 29 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        { "record_id": "TX-1007-00", "patient_id": "P1007", "prior_systemic_therapy": "No", "prior_radiation": "No", "prior_surgery": "No", "supporting_text": "Naive to therapy.", "source_type": "onco_emr_clinical_note", "document_or_table": "OncologyHistory", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "extraction_quality": "verified" }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Cisplatin + Gemcitabine",
+        "requested_regimen": "Gemcitabine + Cisplatin",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Definitive / Concurrent Chemoradiation",
+        "requested_start_date": "2026-08-25",
+        "dose": "Cisplatin 75 mg/m2 Day 1; Gemcitabine 1250 mg/m2 Days 1, 8",
+        "dose_unit": "mg/m2",
+        "frequency": "Every 21 days",
+        "number_of_cycles": "4 cycles",
+        "combination_medications": "Gemcitabine",
+        "supporting_diagnosis": "Squamous Cell Lung Carcinoma",
+        "dose_calc_method": "Body Surface Area",
+        "record_id": "PLAN-1007-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": [
+        {
+          "type": "OUTDATED_LAB",
+          "field": "creatinine",
+          "description": "Creatinine measurement is from 2026-03-10 (> 30 days old), which is not clinically valid for nephrotoxic Cisplatin clearance authorization."
+        }
+      ]
+    },
+    {
+      "patient_id": "P1008",
+      "demographics": {
+        "full_name": { "value": "Claire Bennett", "source": "registration_system", "record_id": "REG-1008", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1985-04-12", "source": "registration_system", "record_id": "REG-1008", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Female", "source": "registration_system", "record_id": "REG-1008", "recorded_at": "2026-08-01" },
+        "address": { "value": "1200 Market Street, San Francisco, CA 94102", "source": "registration_system", "record_id": "REG-1008", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-662301", "source": "eligibility_clearinghouse", "record_id": "INS-1008", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Kaiser Permanente Choice", "source": "eligibility_clearinghouse", "record_id": "INS-1008", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Sarah Lin, MD", "source": "onco_emr", "record_id": "PRV-1008", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1982736450", "source": "onco_emr", "record_id": "PRV-1008", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1008", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1008-01",
+          "patient_id": "P1008",
+          "cancer_type": "Breast Cancer",
+          "primary_diagnosis": "Malignant neoplasm of lower-inner quadrant of left female breast",
+          "icd10_code": "C50.312",
+          "diagnosis_date": "2026-07-01",
+          "disease_stage": "Stage IIA",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "No",
+          "performance_status": "ECOG 0",
+          "supporting_text": "EMR patient record belongs to Claire Bennett, DOB 1975-04-12 (Discordant with registration DOB 1985-04-12).",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Identity Header",
+          "event_date": "2026-07-01",
+          "recorded_at": "2026-07-01",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [],
+      "biomarkers": [],
+      "laboratory_results": [],
+      "treatment_history": [],
+      "treatment_plan": {},
+      "known_conflicts": [
+        {
+          "type": "IDENTITY_MISMATCH",
+          "field": "date_of_birth",
+          "description": "Patient identity mismatch: Registration system lists DOB 1985-04-12, but clinical chart master index lists DOB 1975-04-12."
+        }
+      ]
+    },
+    {
+      "patient_id": "P1009",
+      "demographics": {
+        "full_name": { "value": "Robert Baratheon", "source": "registration_system", "record_id": "REG-1009", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1958-02-14", "source": "registration_system", "record_id": "REG-1009", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Male", "source": "registration_system", "record_id": "REG-1009", "recorded_at": "2026-08-01" },
+        "address": { "value": "1 King Street, Storm's End, VA 23219", "source": "registration_system", "record_id": "REG-1009", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-554433", "source": "eligibility_clearinghouse", "record_id": "INS-1009", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "Anthem BCBS Virginia Premier", "source": "eligibility_clearinghouse", "record_id": "INS-1009", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Richard Winters, MD", "source": "onco_emr", "record_id": "PRV-1009", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1998877665", "source": "onco_emr", "record_id": "PRV-1009", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1009", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1009-01",
+          "patient_id": "P1009",
+          "cancer_type": "Prostate Cancer",
+          "primary_diagnosis": "Malignant neoplasm of prostate",
+          "icd10_code": "C61",
+          "diagnosis_date": "2025-01-15",
+          "disease_stage": "Stage IVB",
+          "is_new_diagnosis": "No",
+          "is_recurrent": "Yes",
+          "recurrence_date": "2026-05-10",
+          "previous_remission_date": "2025-10-01",
+          "is_metastatic": "Yes",
+          "metastasis_sites": ["Bone"],
+          "metastasis_confirmation_date": "2026-05-15",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Metastatic castration-resistant prostate cancer with progression on ADT.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-05-15",
+          "recorded_at": "2026-05-16",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1009-01", "patient_id": "P1009", "concept": "HISTOLOGY", "value": "Acinar Adenocarcinoma, Gleason 9 (4+5)", "supporting_text": "Prostate core biopsy: Acinar adenocarcinoma, Gleason score 4+5=9.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2025-01-20", "recorded_at": "2025-01-21", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1009-01", "patient_id": "P1009", "biomarker_name": "CASTRATION_RESISTANT", "value": "Yes (mCRPC)", "supporting_text": "Serum testosterone < 20 ng/dL with rising PSA confirms castration resistance.", "source_type": "onco_emr_clinical_note", "document_or_table": "ClinicalNotes", "event_date": "2026-05-15", "recorded_at": "2026-05-16", "extraction_quality": "verified" },
+        { "record_id": "BIO-1009-02", "patient_id": "P1009", "biomarker_name": "TESTOSTERONE_LEVEL", "value": "15", "unit": "ng/dL", "supporting_text": "Serum testosterone castrate level (<20 ng/dL).", "source_type": "laboratory_chemistry", "document_or_table": "EndocrineLabs", "event_date": "2026-07-28", "recorded_at": "2026-07-29", "extraction_quality": "verified" },
+        { "record_id": "BIO-1009-03", "patient_id": "P1009", "biomarker_name": "PSA_LEVEL", "value": "45.2", "unit": "ng/mL", "supporting_text": "PSA elevated at 45.2 ng/mL (prior 28.1 ng/mL).", "source_type": "laboratory_chemistry", "document_or_table": "TumorMarkers", "event_date": "2026-07-28", "recorded_at": "2026-07-29", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1009-01", "patient_id": "P1009", "test_name": "HEIGHT", "value": "182", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-02", "patient_id": "P1009", "test_name": "WEIGHT", "value": "94.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-03", "patient_id": "P1009", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-04", "patient_id": "P1009", "test_name": "CREATININE", "value": "1.02", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-05", "patient_id": "P1009", "test_name": "HEMOGLOBIN", "value": "13.2", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-06", "patient_id": "P1009", "test_name": "ANC", "value": "4.5", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-07", "patient_id": "P1009", "test_name": "PLATELET_COUNT", "value": "220", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1009-08", "patient_id": "P1009", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 24 U/L, AST 26 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        {
+          "record_id": "TX-1009-01",
+          "patient_id": "P1009",
+          "prior_systemic_therapy": "Yes",
+          "previous_medications": "Leuprolide acetate",
+          "previous_regimens": "Androgen Deprivation Therapy (ADT)",
+          "treatment_start_date": "2025-02-01",
+          "treatment_end_date": "2026-05-15",
+          "reason_treatment_ended": "Disease progression / Resistance",
+          "response_to_previous_treatment": "Progression while on ADT",
+          "prior_radiation": "No",
+          "prior_surgery": "No",
+          "supporting_text": "Treated with Lupron, developed progression with rising PSA and new bone mets.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "TreatmentHistoryLog",
+          "event_date": "2026-05-15",
+          "recorded_at": "2026-05-16",
+          "extraction_quality": "verified"
+        }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Enzalutamide",
+        "requested_regimen": "Enzalutamide 160mg Daily + ADT maintenance",
+        "line_of_therapy": "Second-line",
+        "treatment_intent": "Palliative / Disease Control",
+        "requested_start_date": "2026-08-22",
+        "dose": "160",
+        "dose_unit": "mg",
+        "frequency": "Daily",
+        "number_of_cycles": "Continuous until progression",
+        "combination_medications": "Leuprolide",
+        "supporting_diagnosis": "Metastatic Castration-Resistant Prostate Cancer",
+        "dose_calc_method": "Fixed Dose",
+        "record_id": "PLAN-1009-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    },
+    {
+      "patient_id": "P1010",
+      "demographics": {
+        "full_name": { "value": "Diana Prince", "source": "registration_system", "record_id": "REG-1010", "recorded_at": "2026-08-01" },
+        "date_of_birth": { "value": "1982-10-25", "source": "registration_system", "record_id": "REG-1010", "recorded_at": "2026-08-01" },
+        "sex": { "value": "Female", "source": "registration_system", "record_id": "REG-1010", "recorded_at": "2026-08-01" },
+        "address": { "value": "100 Gateway Blvd, Washington, DC 20001", "source": "registration_system", "record_id": "REG-1010", "recorded_at": "2026-08-01" }
+      },
+      "insurance": {
+        "member_id": { "value": "MEM-209841", "source": "eligibility_clearinghouse", "record_id": "INS-1010", "recorded_at": "2026-08-01" },
+        "insurance_plan": { "value": "CareFirst BCBS BlueChoice", "source": "eligibility_clearinghouse", "record_id": "INS-1010", "recorded_at": "2026-08-01" },
+        "provider_name": { "value": "Dr. Richard Winters, MD", "source": "onco_emr", "record_id": "PRV-1010", "recorded_at": "2026-08-01" },
+        "provider_npi": { "value": "1998877665", "source": "onco_emr", "record_id": "PRV-1010", "recorded_at": "2026-08-01" },
+        "authorization_type": { "value": "Prior Authorization (Initial)", "source": "order_entry", "record_id": "AUTH-1010", "recorded_at": "2026-08-02" }
+      },
+      "diagnoses": [
+        {
+          "record_id": "DIAG-1010-01",
+          "patient_id": "P1010",
+          "cancer_type": "Lymphoma",
+          "primary_diagnosis": "Diffuse large B-cell lymphoma (DLBCL)",
+          "icd10_code": "C83.30",
+          "diagnosis_date": "2026-07-10",
+          "disease_stage": "Stage III",
+          "is_new_diagnosis": "Yes",
+          "is_recurrent": "No",
+          "is_metastatic": "No",
+          "performance_status": "ECOG 1",
+          "supporting_text": "Excisional lymph node biopsy confirms DLBCL, germinal center B-cell subtype, Ann Arbor Stage III.",
+          "source_type": "onco_emr_clinical_note",
+          "document_or_table": "ClinicalNotes",
+          "section": "Assessment",
+          "event_date": "2026-07-15",
+          "recorded_at": "2026-07-16",
+          "extraction_quality": "verified"
+        }
+      ],
+      "pathology": [
+        { "record_id": "PATH-1010-01", "patient_id": "P1010", "concept": "HISTOLOGY", "value": "Diffuse Large B-Cell Lymphoma, GCB Subtype", "supporting_text": "Cervical lymph node: Diffuse effacement of architecture by large atypical lymphoid cells.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-07-12", "recorded_at": "2026-07-13", "extraction_quality": "verified" }
+      ],
+      "biomarkers": [
+        { "record_id": "BIO-1010-01", "patient_id": "P1010", "biomarker_name": "LYMPHOMA_SUBTYPE", "value": "Diffuse Large B-Cell Lymphoma (DLBCL)", "supporting_text": "DLBCL confirmed by flow cytometry and histology.", "source_type": "final_pathology", "document_or_table": "PathologyReports", "event_date": "2026-07-12", "recorded_at": "2026-07-13", "extraction_quality": "verified" },
+        { "record_id": "BIO-1010-02", "patient_id": "P1010", "biomarker_name": "CD20_STATUS", "value": "Positive", "supporting_text": "CD20: Diffusely and strongly positive in >95% neoplastic cells.", "source_type": "final_pathology", "document_or_table": "BiomarkerPanel", "event_date": "2026-07-12", "recorded_at": "2026-07-13", "extraction_quality": "verified" },
+        { "record_id": "BIO-1010-03", "patient_id": "P1010", "biomarker_name": "BONE_MARROW_INVOLVEMENT", "value": "No", "supporting_text": "Bilateral bone marrow biopsy: Uninvolved by lymphoma.", "source_type": "final_pathology", "document_or_table": "BoneMarrowReport", "event_date": "2026-07-18", "recorded_at": "2026-07-19", "extraction_quality": "verified" },
+        { "record_id": "BIO-1010-04", "patient_id": "P1010", "biomarker_name": "ANN_ARBOR_STAGE", "value": "Stage III", "supporting_text": "Ann Arbor Stage III (lymph nodes on both sides of diaphragm involved).", "source_type": "onco_emr_clinical_note", "document_or_table": "StagingReport", "event_date": "2026-07-20", "recorded_at": "2026-07-21", "extraction_quality": "verified" }
+      ],
+      "laboratory_results": [
+        { "record_id": "LAB-1010-01", "patient_id": "P1010", "test_name": "HEIGHT", "value": "173", "unit": "cm", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-02", "patient_id": "P1010", "test_name": "WEIGHT", "value": "63.0", "unit": "kg", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "vitals", "document_or_table": "VitalsLog", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-03", "patient_id": "P1010", "test_name": "ECOG_PS", "value": "1", "unit": "score", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "clinical_exam", "document_or_table": "ClinicalNotes", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-04", "patient_id": "P1010", "test_name": "CREATININE", "value": "0.80", "unit": "mg/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "ComprehensiveMetabolicPanel", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-05", "patient_id": "P1010", "test_name": "HEMOGLOBIN", "value": "12.0", "unit": "g/dL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-06", "patient_id": "P1010", "test_name": "ANC", "value": "4.1", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-07", "patient_id": "P1010", "test_name": "PLATELET_COUNT", "value": "250", "unit": "x10^3/uL", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_hematology", "document_or_table": "CBCWithDifferential", "extraction_quality": "verified" },
+        { "record_id": "LAB-1010-08", "patient_id": "P1010", "test_name": "ALT_AST_LFT", "value": "Normal (ALT 21 U/L, AST 23 U/L)", "unit": "U/L", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "source_type": "laboratory_chemistry", "document_or_table": "HepaticFunctionPanel", "extraction_quality": "verified" }
+      ],
+      "treatment_history": [
+        { "record_id": "TX-1010-00", "patient_id": "P1010", "prior_systemic_therapy": "No", "prior_radiation": "No", "prior_surgery": "No", "supporting_text": "Naive to therapy.", "source_type": "onco_emr_clinical_note", "document_or_table": "OncologyHistory", "event_date": "2026-08-01", "recorded_at": "2026-08-01", "extraction_quality": "verified" }
+      ],
+      "treatment_plan": {
+        "requested_medication": "Rituximab + CHOP (R-CHOP)",
+        "requested_regimen": "R-CHOP (Rituximab, Cyclophosphamide, Doxorubicin, Vincristine, Prednisone)",
+        "line_of_therapy": "First-line",
+        "treatment_intent": "Curative",
+        "requested_start_date": "2026-08-26",
+        "dose": "Rituximab 375 mg/m2 IV + CHOP standard dosing",
+        "dose_unit": "mg/m2",
+        "frequency": "Every 21 days",
+        "number_of_cycles": "6 cycles",
+        "combination_medications": "Cyclophosphamide, Doxorubicin, Vincristine, Prednisone",
+        "supporting_diagnosis": "CD20+ Diffuse Large B-Cell Lymphoma",
+        "dose_calc_method": "Body Surface Area",
+        "record_id": "PLAN-1010-01",
+        "recorded_at": "2026-08-02",
+        "source_type": "prescribing_provider_order"
+      },
+      "known_conflicts": []
+    }
+  ]
+}

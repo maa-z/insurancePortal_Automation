@@ -1,0 +1,56 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Robert Baratheon
+  Medical Record No:   P1009
+  Date of Birth:       1958-02-14
+  Biological Sex:      Male
+  Primary Address:     1 King Street, Storm's End, VA 23219
+  Insurance Payer:     Unknown (Member ID: MEM-554433)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Prostate Cancer
+  Primary Diagnosis:   Malignant neoplasm of prostate
+  ICD-10 Code:         C61
+  Diagnosis Date:      2025-01-15
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    Bone
+  Confirmation Date:   2026-05-15
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+  - HEIGHT: 182 cm (Drawn: 2026-08-01)
+  - WEIGHT: 94.0 kg (Drawn: 2026-08-01)
+  - ECOG_PS: 1 score (Drawn: 2026-08-01)
+  - CREATININE: 1.02 mg/dL (Drawn: 2026-08-01)
+  - HEMOGLOBIN: 13.2 g/dL (Drawn: 2026-08-01)
+  - ANC: 4.5 x10^3/uL (Drawn: 2026-08-01)
+  - PLATELET_COUNT: 220 x10^3/uL (Drawn: 2026-08-01)
+  - ALT_AST_LFT: Normal (ALT 24 U/L, AST 26 U/L) U/L (Drawn: 2026-08-01)
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  - Modality: None
+    Regimen:  N/A
+    Agents:   
+    Dates:    N/A to N/A
+    Outcome:  N/A
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          Enzalutamide
+  Regimen Name:        N/A
+  Line of Therapy:     Second-line
+  Treatment Intent:    Palliative / Disease Control
+  Requested Start Date:2026-08-22
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-22

@@ -1,0 +1,49 @@
+================================================================================
+ACADEMIC COMPREHENSIVE CANCER CENTER - DIVISION OF MEDICAL ONCOLOGY
+CLINICAL CONSULTATION & PRIOR AUTHORIZATION SUMMARY NOTE
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+  Patient Name:        Claire Bennett
+  Medical Record No:   P1008
+  Date of Birth:       1985-04-12
+  Biological Sex:      Female
+  Primary Address:     1200 Market Street, San Francisco, CA 94102
+  Insurance Payer:     Unknown (Member ID: MEM-662301)
+  Attending Provider:  Dr. Oncologist (NPI: 1234567890)
+
+--------------------------------------------------------------------------------
+ONCOLOGIC DIAGNOSIS & STAGING:
+  Cancer Type:         Breast Cancer
+  Primary Diagnosis:   Malignant neoplasm of lower-inner quadrant of left female breast
+  ICD-10 Code:         C50.312
+  Diagnosis Date:      2026-07-01
+  Stage:               N/A
+  Metastatic Disease:  Yes
+  Metastasis Sites:    
+  Confirmation Date:   N/A
+  Recurrent Disease:   Yes
+
+--------------------------------------------------------------------------------
+CLINICAL LABORATORY PARAMETERS (Recent Specimen Draws):
+
+--------------------------------------------------------------------------------
+PRIOR TREATMENT HISTORY & REGIMENS:
+  No previous systemic antineoplastic therapy recorded.
+
+--------------------------------------------------------------------------------
+REQUESTED TREATMENT PLAN (Prior Authorization Request):
+  Medication:          N/A
+  Regimen Name:        N/A
+  Line of Therapy:     N/A
+  Treatment Intent:    N/A
+  Requested Start Date:N/A
+  Planned Cycles:      N/A
+  Clinical Rationale:  N/A
+
+================================================================================
+CLINICAL QUALITY & DISCREPANCY FLAGS:
+  [FLAG] IDENTITY_MISMATCH: Patient identity mismatch: Registration system lists DOB 1985-04-12, but clinical chart master index lists DOB 1975-04-12.
+================================================================================
+
+Physician Attestation: Electronically signed by Dr. Oncologist, MD on 2026-08-01
